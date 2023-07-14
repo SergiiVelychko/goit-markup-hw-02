@@ -1,6 +1,8 @@
 body {
    font-family: "Roboto"; sans-serif;
    font-family: 'Raleway'; sans-serif;
+   color: #2E2F42;
+   background-color: #FFF;;
 }
 
 a {
@@ -276,10 +278,171 @@ text-transform: uppercase;
 .list {
 }
 .header-portfolio-menu-link {
+   color: var(--navyblue, #2E2F42);
+/* Body Medium */
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 1.5; /* 150% */
+letter-spacing: 0.02;
 }
 .header-portfolio-address {
 }
 .header-portfolio-address-item {
 }
 .header-portfolio-address-link {
+   color: var(--slate, #434455);
+/* Body */
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 1.5 /* 150% */
+letter-spacing: 0.02;
+}
+
+/* -------------------------------filter---------------------- */
+
+.filter {
+}
+.filter-button {
+   color: var(--white, #FFF);
+text-align: center;
+/* Button Text */
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 1.5; /* 150% */
+letter-spacing: 0.04;
+}
+
+/* -----------------------------------card1------------------------ */
+
+.card-1 {
+}
+.card-1-list {
+}
+.card-1-list-item {
+}
+.card-1-list-service {
+   color: var(--navyblue, #2E2F42);
+/* Header 3 */
+font-family: Roboto;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 1.2; /* 120% */
+letter-spacing: 0.02;
+}
+.card-1-list-app {
+   color: var(--slate, #434455);
+
+/* Body */
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 1.5; /* 150% */
+letter-spacing: 0.02;
+}
+
+/* ------------------------------------card2------------------- */
+
+.card-2 {
+}
+.card-2-list {
+}
+.card-2-list-item {
+}
+.card-2-list-service {
+   color: var(--navyblue, #2E2F42);
+/* Header 3 */
+font-family: Roboto;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 1.2; /* 120% */
+letter-spacing: 0.02;
+}
+.card-2-list-app {
+   color: var(--slate, #434455);
+
+/* Body */
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 1.5; /* 150% */
+letter-spacing: 0.02;
+}
+
+/* ------------------------------------card3--------------------- */
+
+.card-3 {
+}
+.card-3-list {
+}
+.card-3-list-item {
+}
+.card-3-list-service {
+   color: var(--navyblue, #2E2F42);
+/* Header 3 */
+font-family: Roboto;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 1.2; /* 120% */
+letter-spacing: 0.02;
+}
+.card-3-list-app {
+   color: var(--slate, #434455);
+
+/* Body */
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 1.5; /* 150% */
+letter-spacing: 0.02;
+}
+
+/* --------------------------------footer----------------------- */
+
+.footer-portfolio {
+   background-color: var(--navyblue, #2E2F42);
+}
+.footer-portfolio-logo {
+color: var(--cloud, #F4F4FD);
+font-family: Raleway;
+font-size: 18px;
+font-style: normal;
+font-weight: 800;
+line-height: 1.16; /* 116.667% */
+letter-spacing: 0.03;
+text-transform: uppercase;
+   
+}
+.link {
+}
+.footer-portfolio-logo-color {
+color: var(--iris, #4D5AE5);
+font-family: Raleway;
+font-size: 18px;
+font-style: normal;
+font-weight: 800;
+line-height: 1.16; /* 116.667% */
+letter-spacing: 0.03px;
+text-transform: uppercase;
+}
+.footer-portfolio-text {
+   color: var(--cloud, #F4F4FD);
+/* Body */
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 1.5; /* 150% */
+letter-spacing: 0.02;
 }
