@@ -48,12 +48,12 @@ a {
    color: #404bbf;
  }
 
- .link:hover {
+ .link:focus {
    color: #404bbf;
  }
 
  .list {
-   list-style-type: none;
+   
    list-style: none;
  }
 
@@ -74,7 +74,7 @@ a {
  .address {
    font-style: normal;
  }
- /* ----------------------header-------------------------- */
+ /* ----------------------header main-------------------------- */
 
  .header-navigation {
    color: var(--iris, #4d5ae5);
@@ -86,7 +86,7 @@ a {
    letter-spacing: 0.03em;
 text-transform: uppercase;
 
- }
+ /* }
 .header-logo {
    color: var(--iris, #4d5ae5);
    font-family: Raleway, sans-serif;
@@ -96,18 +96,7 @@ text-transform: uppercase;
    line-height: 1.17;
    letter-spacing: 0.03em;
 text-transform: uppercase;;
-}
-
-.header-logo-1 {
-   color: var(--iris, #4d5ae5);
-   font-family: Raleway, sans-serif;
-   font-size: 18px;
-   font-style: normal;
-   font-weight: 800;
-   line-height: 1.17;
-   letter-spacing: 0.03em;
-text-transform: uppercase;
-}
+} */
 
 .header-logo-2 {
    color: var(--navyblue, #2E2F42);
@@ -115,10 +104,21 @@ font-family: Raleway, sans-serif;
 font-size: 18px;
 font-style: normal;
 font-weight: 800;
-line-height: 21px; /* 116.667% */
-letter-spacing: 0.54px;
+line-height: 1.17; /* 116.667% */
+letter-spacing: 0.03;
 text-transform: uppercase;
 }
+
+.header-menu {
+   color: var(--navyblue, #2E2F42);
+/* Body Medium */
+   font-family: Roboto, sans-serif;
+   font-size: 16px;
+   font-style: normal;
+   font-weight: 500;
+   line-height: 1.5;
+   letter-spacing: 0.02em;
+} 
 
 .header-menu-link {
    color: var(--navyblue, #2E2F42);
@@ -155,13 +155,11 @@ line-height: 1.5; /* 150% */
 letter-spacing: 0.02em;
 }
 
-/* _____________________hero_________________________ */
+/* _____________________hero main_________________________ */
 
 .hero {
 background-color: var(--navyblue, #2E2F42);
 }
-
-
 
 .hero-title {
    color: var(--white, #FFF);
@@ -195,7 +193,7 @@ cursor: pointer;
    background-color: #404bbf;
 }
 
-/* ---------------advantages -------------*/
+/* ---------------advantages main -------------*/
 
 .advantages {
 }
@@ -227,7 +225,7 @@ line-height: 1.5; /* 150% */
 letter-spacing: 0.02em;
 }
 
-/* --------------------made---------- */
+/* --------------------made main---------- */
 
 .made {
 }
@@ -248,7 +246,7 @@ text-transform: capitalize;
 .made-list-item {
 }
 
-/* ---------------team------------------ */
+/* ---------------team main------------------ */
 
 .team {
    background-color: #F4F4FD;
@@ -295,21 +293,31 @@ line-height: 1.5; /* 150% */
 letter-spacing: 0.02em;
 }
 
-/* -------------------------------footer--------------------------------- */
+/* ---------------footer main--------------------------------- */
+
 .footer {
-   background-color: var(--navyblue, #2E2F42);
-}
-.footer-logo-1 {
    color: var(--iris, #4d5ae5);
-font-family: Raleway, sans-serif;
-font-size: 18px;
-font-style: normal;
-font-weight: 800;
-line-height: 1.17; /* 116.667% */
-letter-spacing: 0.03em;
-text-transform: uppercase;
+   font-family: Raleway, sans-serif;
+   font-size: 18px;
+   font-style: normal;
+   font-weight: 800;
+   line-height: 1.17; /* 116.667% */
+   letter-spacing: 0.03em;
+   text-transform: uppercase; 
+   background-color: var(--navyblue, #2E2F42);  
 }
 
+.footer-logo {
+   color: var(--iris, #4d5ae5);
+   font-family: Raleway, sans-serif;
+   font-size: 18px;
+   font-style: normal;
+   font-weight: 800;
+   line-height: 1.17; /* 116.667% */
+   letter-spacing: 0.03em;
+   text-transform: uppercase; 
+   background-color: var(--navyblue, #2E2F42); 
+}
 .footer-logo-2 {
    color: var(--cloud, #F4F4FD);
 font-family: Raleway, sans-serif;
@@ -337,7 +345,7 @@ letter-spacing: 0.02em;
 /* --------------------------------------- */
 
 
-/* -----------------------header--------------------------- */
+/* -----------------------header portfolio-------------------------- */
 
 
 .header-portfolio {
@@ -454,10 +462,10 @@ letter-spacing: 0.02em;
    color: #404bbf;
 }
 
-/* -------------------------------main---------------------- */
+/* ------------------------main portfolio---------------------- */
 /* ------------------------------------------------------------------- */
 
-/* --------------------------------filter--------------------------- */
+/* -----------------------filter main--------------------------- */
 .filter-button {
    color: var(--iris, #4d5ae5);
 background-color: var(#F4F4FD;) 
@@ -487,7 +495,7 @@ background: var(--cloud, #F4F4FD);
    color: #FFFFFF;
    background-color: #404bbf;
 }
-/* -----------------------------------card------------------------ */
+/* -----------------------card main------------------------ */
 
 .card-list {
 
@@ -519,7 +527,7 @@ line-height: 1.5; /* 150% */
 letter-spacing: 0.02;
 }
 
-/* --------------------------------footer----------------------- */
+/* ----------------------footer main----------------------- */
 /* -------------------------------------------------------------------- */
 
 .footer-portfolio {
