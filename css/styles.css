@@ -41,7 +41,7 @@ a {
    list-style: none;
  }
 
- .visually-hidden {
+ /* .visually-hidden {
   
    width: 1px;
    height: 1px;
@@ -53,7 +53,7 @@ a {
    clip-path: inset(100%);
    clip: rect(0 0 0 0);
    overflow: hidden;
- }
+ } */
 
  .address {
    font-style: normal;
@@ -82,7 +82,7 @@ text-transform: uppercase;
 text-transform: uppercase;;
 }
 
-.header-logo-2 {
+.header-logo- {
    color: var(--navyblue, #2E2F42);
 font-family: Raleway, sans-serif;
 font-size: 18px;
@@ -351,7 +351,7 @@ text-transform: uppercase;
 }
 
 
-.header-portfolio-logo-2 {
+.header-portfolio-logo-f {
    color: var(--navyblue, #2E2F42);
 font-family: Raleway, sans-serif;
 font-size: 18px;
@@ -491,7 +491,7 @@ font-size: 20px;
 font-style: normal;
 font-weight: 500;
 line-height: 1.2; /* 120% */
-letter-spacing: 0.02;
+letter-spacing: 0.02em;
 }
 
 .card-list-app {
@@ -501,7 +501,7 @@ font-size: 16px;
 font-style: normal;
 font-weight: 400;
 line-height: 1.5; /* 150% */
-letter-spacing: 0.02;
+letter-spacing: 0.02em;
 }
 
 /* ----------------------footer portfolio----------------------- */
@@ -522,7 +522,7 @@ letter-spacing: 0.03em;
 text-transform: uppercase;
 }  
 
-.footer-portfolio-logo-2 {
+.footer-portfolio-logo-f {
 color: var(--iris, #F4F4FD);
 font-family: Raleway;
 font-size: 18px;
