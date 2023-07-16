@@ -36,10 +36,10 @@ body {
    background-color: #FFF;;
 }
 
-
 a {
    color: currentColor;
 }
+
 .link { 
    text-decoration: none;
  } 
@@ -52,8 +52,7 @@ a {
    color: #404bbf;
  }
 
- .list {
-   
+ .list {   
    list-style: none;
  }
 
@@ -363,16 +362,6 @@ letter-spacing: 0.02em;
 text-transform: uppercase;
 }
 
-.header-portfolio-logo-1 {
-   color: var(--iris, #4D5AE5);
-font-family: Raleway, sans-serif;
-font-size: 18px;
-font-style: normal;
-font-weight: 800;
-line-height: 1.17x; /* 116.667% */
-letter-spacing: 0.03em;
-text-transform: uppercase;
-}
 
 .header-portfolio-logo-2 {
    color: var(--navyblue, #2E2F42);
@@ -465,7 +454,7 @@ letter-spacing: 0.02em;
 /* ------------------------main portfolio---------------------- */
 /* ------------------------------------------------------------------- */
 
-/* -----------------------filter main--------------------------- */
+/* -----------------------filter portfolio--------------------------- */
 .filter-button {
    color: var(--iris, #4d5ae5);
 background-color: var(#F4F4FD;) 
@@ -495,7 +484,7 @@ background: var(--cloud, #F4F4FD);
    color: #FFFFFF;
    background-color: #404bbf;
 }
-/* -----------------------card main------------------------ */
+/* -----------------------card portfolio------------------------ */
 
 .card-list {
 
@@ -527,16 +516,14 @@ line-height: 1.5; /* 150% */
 letter-spacing: 0.02;
 }
 
-/* ----------------------footer main----------------------- */
+/* ----------------------footer portfolio----------------------- */
 /* -------------------------------------------------------------------- */
 
 .footer-portfolio {
    background-color: var(--navyblue, #2E2F42);
 }
 
-
-
-.footer-portfolio-logo-1 {
+.footer-portfolio-logo {
    color: var(--cloud, #4D5AE5);
 font-family: Raleway, sans-serif;
 font-size: 18px;
@@ -545,8 +532,6 @@ font-weight: 800;
 line-height: 1.17; /* 116.667% */
 letter-spacing: 0.03em;
 text-transform: uppercase;
-
-
 }  
 
 .footer-portfolio-logo-2 {
@@ -558,7 +543,6 @@ font-weight: 800;
 line-height: 1.17; /* 116.667% */
 letter-spacing: 0.03em;
 text-transform: uppercase;
-
 }
 
 .footer-portfolio-text {
