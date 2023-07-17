@@ -191,7 +191,7 @@ background-color: var(--navyblue);
 /* -------------------------------Team Studio------------------ */
 
 .team {
-   /* background-color: var(--cloud); */
+   background-color: var(--cloud);
 }
 
 .team-title {
